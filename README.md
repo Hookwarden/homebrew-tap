@@ -13,12 +13,17 @@ Homebrew tap for [hookwarden](https://hookwarden.dev) — the webhook signature-
 
 ## Supported platforms
 
-- macOS arm64 (Apple Silicon)
-- macOS x64 (Intel)
 - Linux arm64 (Linuxbrew)
 - Linux x64 (Linuxbrew)
 
-Pre-built binaries are pulled from [Hookwarden/hookwarden GitHub Releases](https://github.com/Hookwarden/hookwarden/releases). The formula is auto-bumped by hookwarden's release pipeline.
+macOS is **not** currently supported via this tap (no funded Apple Developer
+Program enrollment to sign binaries). macOS users should install via npm:
+
+    npx hookwarden scan path/to/your/repo
+
+Pre-built Linux binaries are pulled from
+[Hookwarden/hookwarden GitHub Releases](https://github.com/Hookwarden/hookwarden/releases).
+The formula is auto-bumped by hookwarden's release pipeline.
 
 ## License
 

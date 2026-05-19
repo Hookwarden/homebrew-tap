@@ -11,5 +11,7 @@ jobs:
     runs-on: macos-14
     steps:
       - uses: actions/checkout@v6
-      - name: brew audit --strict
-        run: brew audit --strict --formula Formula/hookwarden.rb
+      - name: Tap + audit
+        run: |
+          brew tap Hookwarden/tap "$(pwd)"
+          brew audit --strict --formula hookwarden

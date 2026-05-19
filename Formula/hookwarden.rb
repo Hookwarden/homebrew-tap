@@ -1,8 +1,8 @@
 class Hookwarden < Formula
   desc "Webhook signature-verification audit tool"
   homepage "https://hookwarden.dev"
-  url "https://github.com/Hookwarden/hookwarden/releases/download/v0.3.0/hookwarden-linux-arm64"
-  sha256 "181abab1427d9bba4e79d95a4707a55083dee08d7ac4f6aff48a959acc613794"
+  url "https://github.com/Hookwarden/hookwarden/releases/download/v0.3.1/hookwarden-linux-arm64"
+  sha256 "b1c35628278c2f8ea40fecdc330b0bf891ca0535671e663fd98ab6d5fd03d049"
   license "Apache-2.0"
 
   livecheck do
@@ -17,8 +17,8 @@ class Hookwarden < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/Hookwarden/hookwarden/releases/download/v0.3.0/hookwarden-linux-x64"
-      sha256 "c37b5ed9bc00c85c5b8021da0d3925ed1aac2b885651793a2d3137df4f34a64e"
+      url "https://github.com/Hookwarden/hookwarden/releases/download/v0.3.1/hookwarden-linux-x64"
+      sha256 "79e6e4e0fcf1010ce4182d5bcb5095324ead68fe4bb3f9800e4209f781e487b3"
     end
   end
 

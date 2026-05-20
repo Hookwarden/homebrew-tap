@@ -3,6 +3,9 @@ class Hookwarden < Formula
   homepage "https://hookwarden.dev"
   url "https://github.com/Hookwarden/hookwarden/releases/download/v0.3.1/hookwarden-linux-arm64"
   sha256 "b1c35628278c2f8ea40fecdc330b0bf891ca0535671e663fd98ab6d5fd03d049"
+  # Explicit version line: Homebrew's auto-derive picks up "64" from the
+  # trailing "arm64" in the binary filename instead of "0.3.1" from "v0.3.1".
+  version "0.3.1"
   license "Apache-2.0"
 
   livecheck do

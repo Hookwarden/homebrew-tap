@@ -2,6 +2,7 @@ class Hookwarden < Formula
   desc "Webhook signature-verification audit tool"
   homepage "https://hookwarden.dev"
   url "https://registry.npmjs.org/hookwarden/-/hookwarden-0.5.1.tgz"
+  version "0.5.1"
   sha256 "c0503b9759fb2913fa1c6a799951bd1b616d6ae31169c68d8ab88ba20c5fa167"
   license "Apache-2.0"
 

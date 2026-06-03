@@ -1,9 +1,9 @@
 class Hookwarden < Formula
   desc "Webhook signature-verification audit tool"
   homepage "https://hookwarden.dev"
-  url "https://registry.npmjs.org/hookwarden/-/hookwarden-0.8.0.tgz"
-  version "0.8.0"
-  sha256 "7fbe0f9234c7735a205dfe40a5efd049a71aa4dfafd9e7846657548fb7d39944"
+  url "https://registry.npmjs.org/hookwarden/-/hookwarden-0.8.1.tgz"
+  version "0.8.1"
+  sha256 "c5ac024e23af60abd0eb78126cc60a2d33071e9275e00b4c2fcf48edbda3675e"
   license "Apache-2.0"
 
   livecheck do
@@ -24,12 +24,12 @@ class Hookwarden < Formula
   # These override the top-level npm-tarball URL.
   on_linux do
     on_arm do
-      url "https://github.com/Hookwarden/hookwarden/releases/download/v0.8.0/hookwarden-linux-arm64"
-      sha256 "7fcda5709a0c0e54402301f1058d26142520bcec28be859925a35f3731400196"
+      url "https://github.com/Hookwarden/hookwarden/releases/download/v0.8.1/hookwarden-linux-arm64"
+      sha256 "8bbaf2d61b39b9ae888f890db34adb13d302ce4f40b622bbf72f6e103e30a8c8"
     end
     on_intel do
-      url "https://github.com/Hookwarden/hookwarden/releases/download/v0.8.0/hookwarden-linux-x64"
-      sha256 "e4d358d8bd01bbc6adfadc36bd7eab6ce09f11f0bd4ba693f45fe19aa24c49d1"
+      url "https://github.com/Hookwarden/hookwarden/releases/download/v0.8.1/hookwarden-linux-x64"
+      sha256 "5142416413585d46d559d7ae8e65732b313a04f5057e76c0cac8a193d72e7a3e"
     end
   end
 
